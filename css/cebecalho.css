@@ -205,3 +205,34 @@ main > section > div {
 }
 
 /* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    border-top: var(--border-bottom);
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links-footer > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links-footer {
+    display: flex;
+    gap: 80px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+a {
+    color: #868686;
+}
